@@ -234,13 +234,19 @@
   }
   
   #mini-banners #mini-banner-3 a {
-    color: #101010;
+    color: #ffffff;
   }
   
   #mini-banners #mini-banner-3 a:hover {
     color: #C09578;
   }
   
+  #mini-banner-3,
+  #mini-banner-2,
+  #mini-banner-1{
+      overflow: hidden;
+  }
+
   /* BEST SELLERS */
   #best-sellers {
     padding: 4em 0;
@@ -498,8 +504,51 @@
     padding: 30px;
   }
 
+  #dev-container {
+    text-align: center;
+    padding: 30px;
+    text-size-adjust: .5rem;
+  }
+
+  #dev{
+    font-size: 12px;
+  }
+
   /* LOGO */
   .logo{
     border-radius: 50%;
     max-width: 7rem;
+  }
+
+  iframe {
+    width: 1000px;
+    height: 300px;
+  }
+
+  .ifood{
+    max-width: 300px;
+    max-height: 150px;
+    margin-bottom: 50px;
+    margin-right: -6rem;
+  }
+
+  .delivery{
+    max-width: 400px;
+    max-height: 200px;
+    margin-bottom: 40px;
+    margin-right: -3rem;
+  }
+
+  .pizza{
+    max-width: 500px;
+    max-height: 200px;
+    margin-bottom: 20px;
+    margin-right: -4rem;
+  }
+
+  @media (max-width: 450px) {
+    iframe {
+      width: 300px;
+      height: 200px;
+    }
   }
